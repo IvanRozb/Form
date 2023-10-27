@@ -1,0 +1,27 @@
+[
+  {
+    "default_value": "",
+    "value": "",
+    "validation": "\\w{3,16}",
+    "type": "text"
+  },
+  {
+    "default_value": 0,
+    "value": 0,
+    "validation": "^\\d+$",
+    "min_value": 0,
+    "max_value": 100,
+    "type": "number"
+  },
+  {
+    "default_value": false,
+    "value": false,
+    "type": "dropdown",
+    "options": ["Option A", "Option B", "Option C"]
+  },
+  {
+    "default_value": "",
+    "value": "",
+    "type": "longtext"
+  }
+]
